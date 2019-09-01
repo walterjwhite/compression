@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.walterjwhite.modules.compression.modules</groupId>
-    <artifactId>xz</artifactId>
-
-    <!--<packaging>war</packaging>-->
-    <name>compression - modules - xz</name>
-
-        <parent>
-            <groupId>com.walterjwhite.modules.compression</groupId>
-            <artifactId>modules</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-        </parent>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.walterjwhite.modules.compression.api</groupId>
-            <artifactId>service</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-            <artifactId>commons-compress</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-            <type>pom</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
-            <artifactId>core</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-            <type>pom</type>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.java.modules.compression</groupId>
+    <artifactId>modules</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.java.modules.compression.modules</groupId>
+  <artifactId>xz</artifactId>
+  <packaging>pom</packaging>
+  <name>compression - modules - xz</name>
+  <modules>
+    <module>impl</module>
+    <module>providers</module>
+  </modules>
 </project>

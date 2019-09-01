@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.walterjwhite.java.modules.compression.api</groupId>
-  <artifactId>model</artifactId>
-  <packaging>jar</packaging>
-  <name>compression - api - model</name>
   <parent>
-    <groupId>com.walterjwhite.java.modules.compression</groupId>
-    <artifactId>api</artifactId>
+    <groupId>com.walterjwhite.java.modules.compression.modules.xz</groupId>
+    <artifactId>providers</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
+  <groupId>com.walterjwhite.java.modules.compression.modules.xz.providers</groupId>
+  <artifactId>guice</artifactId>
+  <packaging>jar</packaging>
+  <name>compression - modules - xz - providers - guice</name>
   <dependencies>
     <dependency>
-      <groupId>com.walterjwhite.java.infrastructure.datastore.api</groupId>
-      <artifactId>model</artifactId>
+      <groupId>com.walterjwhite.java.infrastructure.inject.providers</groupId>
+      <artifactId>guice</artifactId>
       <version>0.0.15-SNAPSHOT</version>
     </dependency>
   </dependencies>

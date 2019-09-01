@@ -1,0 +1,6 @@
+group = 'com.walterjwhite.modules.compression.modules'
+description = 'compression - modules - xz'
+dependencies {
+  compile project(':infrastructure:dependencies:google-guice:core')
+  testCompile project(':infrastructure:dependencies:commons-io')
+}

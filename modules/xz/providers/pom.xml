@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.walterjwhite.java.modules.compression</groupId>
-  <artifactId>modules</artifactId>
-  <packaging>pom</packaging>
-  <name>compression - modules</name>
   <parent>
-    <groupId>com.walterjwhite.java.modules</groupId>
-    <artifactId>compression</artifactId>
+    <groupId>com.walterjwhite.java.modules.compression.modules</groupId>
+    <artifactId>xz</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
+  <groupId>com.walterjwhite.java.modules.compression.modules.xz</groupId>
+  <artifactId>providers</artifactId>
+  <packaging>pom</packaging>
+  <name>compression - modules - xz - providers</name>
   <modules>
-    <module>xz</module>
-    <!--<module>google-protocol-buffers</module>-->
+    <module>guice</module>
   </modules>
   <dependencies>
     <dependency>
-      <groupId>com.walterjwhite.java.modules.compression.api</groupId>
-      <artifactId>service</artifactId>
+      <groupId>com.walterjwhite.java.modules.compression.modules.xz</groupId>
+      <artifactId>impl</artifactId>
       <version>0.0.15-SNAPSHOT</version>
     </dependency>
   </dependencies>

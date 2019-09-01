@@ -1,36 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-				 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	
-	<parent>
-        <groupId>com.walterjwhite</groupId>
-        <artifactId>modules</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-	<groupId>com.walterjwhite.modules</groupId>
-	<artifactId>compression</artifactId>
-	<packaging>pom</packaging>
-	
-	<name>compression</name>
-	<description>compression</description>
-	<url>https://github.com/walterjwhite/compression</url>
-	
-	<modules>
-		<module>api</module>
-		<!--<module>impl</module>-->
-		<module>modules</module>
-	</modules>
-	
-	<dependencies>
-
-	</dependencies>
-
-	<scm>
-		<connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/modules/compression.git</connection>
-		<developerConnection>scm:git:ssh://git@localhost:/projects/active/github.com/java/modules/compression.git</developerConnection>
-		<url>https://github.com/walterjwhite/compression.git</url>
-	    </scm>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.java</groupId>
+    <artifactId>modules</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.java.modules</groupId>
+  <artifactId>compression</artifactId>
+  <packaging>pom</packaging>
+  <name>compression</name>
+  <description>compression</description>
+  <url>https://github.com/walterjwhite/compression</url>
+  <modules>
+    <module>api</module>
+    <!--<module>impl</module>-->
+    <module>modules</module>
+  </modules>
+  <dependencies/>
+  <scm>
+    <connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/modules/compression.git</connection>
+    <developerConnection>scm:git:ssh://git@localhost:/projects/active/github.com/java/modules/compression.git</developerConnection>
+    <url>https://github.com/walterjwhite/compression.git</url>
+  </scm>
 </project>
